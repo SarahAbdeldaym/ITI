@@ -1,0 +1,2 @@
+javac OvalDragger.java
+appletviewer OvalDragger.html

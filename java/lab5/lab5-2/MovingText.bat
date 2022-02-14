@@ -1,0 +1,2 @@
+javac MovingText.java
+appletviewer MovingText.html

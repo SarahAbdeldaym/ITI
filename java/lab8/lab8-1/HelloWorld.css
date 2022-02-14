@@ -1,0 +1,20 @@
+#text{
+ -fx-font: 25px "sans-serif"; 
+ -fx-font-weight: bold;
+ -fx-fill: #cf0e07;
+}
+
+
+#rectangle{
+    -fx-fill: linear-gradient(black , white , black );
+}
+
+#reflectedText{
+    -fx-font-size: 25;
+	-fx-font-weight: bold;
+    
+    -fx-scale-y: -1;
+	-fx-translate-y: 30;
+    -fx-fill: linear-gradient(transparent 20%, red 100%);
+    -fx-opacity: 0.8;
+}
