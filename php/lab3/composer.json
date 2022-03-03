@@ -1,0 +1,11 @@
+{
+    "name":"countvisit/day3",
+    "description":"Unique visits counter using OOP PHP ",
+    "liscense": "MIT",
+    "require":{},
+    "autoload":{
+        "classmap":["Model"],
+        "files":["config.php"
+        ]
+    }
+}
