@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="employees.css"?>
+<employees>
+<employee name="sarah">
+<phones>
+<phone type="home">035445016</phone>
+<phone type="mobile">01206008079</phone>
+</phones>
+<address>
+    <Street>macca</Street>
+    <Building>al zahraa</Building>
+    <Number>15</Number>
+    <Region>kafr abdo</Region>
+    <City>alex</City>
+    <Country>egypt</Country>
+</address>
+<email>sarahabdeldaym@gmail.com</email>
+</employee>
+</employees>

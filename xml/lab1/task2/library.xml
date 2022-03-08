@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="library.css"?>
+<library>
+
+
+    <location>15 macca</location>
+    <description>it's our book</description>
+    <librarian></librarian>
+
+
+    <book title="book 1" ISBN="20" Author="sarah">
+        <preface>pre1</preface>
+        <preface>pre2</preface>
+
+        <part>
+            <chapter chapterElement="element 1" title="chapter 1">
+                chap1
+                <summary>
+                    summary chapter 1 part 1
+                </summary>
+
+                <section>sec1</section>
+                <section>sec2</section>
+
+
+            </chapter>
+            <chapter chapterElement="element 2 " title="From suffering we are born again">
+                chap2
+                <summary>
+                    summary chapter 2 part 1
+                </summary>
+
+                <section>sec1</section>
+                <section>sec2</section>
+            </chapter>
+
+        </part>
+
+
+        <part>
+            <chapter chapterElement="element1" title="pain">
+                chap1
+                <summary>
+                    summary chapter 1 part 2
+                </summary>
+
+            <section>sec1</section>
+            <section>sec2</section>
+
+            </chapter>
+
+            <chapter chapterElement="element2" title="From suffering we are born again">
+                chap2
+                <summary>
+                    summary chapter 2 part 2
+                </summary>
+
+                <section>sec1</section>
+                <section>sec2</section>
+            </chapter>
+
+
+        </part>
+
+
+    </book>
+
+
+
+</library>
