@@ -1,0 +1,14 @@
+{
+  "name": "php/lab4",
+  "description" : "lab4",
+  "license": "AR",
+  "require" : {
+      
+        "illuminate/database": "*"
+    },
+  "autoload":{
+  
+    "classmap":["Model"],
+     "files": ["config.php"]
+  }
+}
