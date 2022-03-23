@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="views/styles/index.css">
+    <title>XML Project</title>
+</head>
+
+<body>
+    <h1>Employees Data</h1>
+    <form id="form" action="index.php" method="POST">
+        <div class="search_area">
+            <input type="search" placeholder="Search by name" id="search_bar" name="search_name"/>
+            <input id="search_btn" type="submit" name="search" value="Search">
+            </input>
+        </div>
+
+        <div class="form-control">
+            <label for="name" id="label-name">Name</label>
+            <input type="text" id="name" name="name" value="<?php echo ($employee['name']) ?>" />
+        </div>
+        <div class="form-control">
+            <label for="phone" id="label-phone">phone</label>
+            <input type="text" id="phone" name="phone" value="<?php echo ($employee['phone']) ?>"/>
+        </div>
+
+        <div class="form-control">
+            <label for="address" id="label-address">
+                address
+            </label>
+
+
+            <input type="text" id="address"  name="address" value="<?php echo ($employee['address']) ?>"/>
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="label-email">
+                Email
+            </label>
+
+            <input type="email" id="email"  name="email" value="<?php echo ($employee['email']) ?>"/>
+        </div>
+
+
+        <div class="button">
+            <button type="submit" name="insert">
+            insert
+        </button>
+            <button type="submit" name="update">
+            update
+        </button>
+            <button type="submit" name="delete">
+            delete
+        </button>
+
+        </div>
+
+        <div class="button">
+            <button type="submit" name="previous">
+            prev
+        </button>
+            <button type="submit" name="next">
+            next
+        </button>
+        </div>
+        <div class="message">
+            <?php echo ($app_message) ?>
+        </div>
+    </form>
+</body>
+
+</html>
