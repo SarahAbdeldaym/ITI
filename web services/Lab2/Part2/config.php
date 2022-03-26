@@ -1,7 +1,7 @@
 <?php
 
 define("Driver", "mysql");
-define("Host", "127.0.0.1");
-define("Database", "northwind");
+define("Host", "localhost");
+define("Database", "glasses_store");
 define("Username", "root");
 define("Password", "");
