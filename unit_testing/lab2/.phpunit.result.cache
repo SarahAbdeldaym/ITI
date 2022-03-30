@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"UserTest::test_get_name_retuen_correct_name":0,"UserTest::test_get_email_retuen_correct_email":0,"UserTest::test_get_name_returns_valid_name":0,"UserTest::test_get_name_returns_valid_email":0}}
