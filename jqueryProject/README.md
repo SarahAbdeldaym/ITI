@@ -15,7 +15,7 @@ This is a simple idea of basic menu for restaurant using Jquery
 ### video
 
 
-![screen-gif](/Demo.gif)
+# linke to the DEMO video   https://drive.google.com/file/d/1jKx5uYwOvdrqbkGxJlP-kEJUGMS5H9Wl/view?usp=sharing
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
