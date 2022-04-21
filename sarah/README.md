@@ -1,8 +1,17 @@
 
-<h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">, I'm Sarah Abdeldaym0</h1>
-<h3 align="center">A junior software engineer from Egypt</h3>
+<h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">, I'm Sarah Abdeldaym</h1>
+<h3 align="center">A junior full stack developer from Egypt</h3>
 
-### hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
+hi, i'm Sarah Abdeldaym, a passionate self-taught full stack web developer and a freelance software engineer from Egypt. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality of the things I build.
+
+i am also an open-source enthusiast and maintainer. i learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.
+
+- 🔭 I’m currently working at **Information Technology Institute(ITI)**
+
+- 🌱 I’m currently learning **Backend and DevOps in ITI**
+
+<h3 align="left">Connect with me:</h3>
+<p align="left">
 <a href="https://www.instagram.com/sarahabdeldaim/?hl=en">
   <img align="left" alt="SarahAbdeldaym's Instagram" width="22px" src="https://raw.githubusercontent.com/hussainweb/hussainweb/main/icons/instagram.png" />
 </a>
@@ -17,11 +26,7 @@
 ![](https://visitor-badge.glitch.me/badge?page_id=SarahAbdeldaym.SarahAbdeldaym)
 
 <br />
-
-hi, i'm Sarah Abdeldaym, a passionate self-taught full stack web developer and a freelance software engineer from Egypt. my passion for software lies with dreaming up ideas and making them come true with elegant interfaces. i take great care in the experience, architecture, and code quality of the things I build.
-
-i am also an open-source enthusiast and maintainer. i learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.
-
+</p>
 
   <img align="right" alt="GIF" src="https://github.com/SarahAbdeldaym/ITI/blob/master/sarah/code.gif" width="500" height="320" />
   
