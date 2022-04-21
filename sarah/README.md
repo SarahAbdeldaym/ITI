@@ -23,9 +23,12 @@ i am also an open-source enthusiast and maintainer. i learned a lot from the ope
 </a>
 <a href="https://www.linkedin.com/in/sarah-abd-eldaym-594368183/">
   <img align="left" alt="SarahAbdeldaym's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
-</a>
+
+
 ![](https://visitor-badge.glitch.me/badge?page_id=SarahAbdeldaym.SarahAbdeldaym)
+
 <br />
+
 
 **languages and tools:**  
 
