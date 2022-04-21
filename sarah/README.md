@@ -1,4 +1,6 @@
 
+<h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">, I'm Sarah Abdeldaym0</h1>
+<h3 align="center">A junior software engineer from Egypt</h3>
 
 ### hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 <a href="https://www.instagram.com/sarahabdeldaim/?hl=en">
