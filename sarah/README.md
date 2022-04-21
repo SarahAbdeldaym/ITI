@@ -48,7 +48,7 @@ i am also an open-source enthusiast and maintainer. i learned a lot from the ope
 <br />
 <br /> 
   
-if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
+#### if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
 
 <a href="https://www.buymeacoffee.com/sarahabdeldaym" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
 
