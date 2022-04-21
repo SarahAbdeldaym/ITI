@@ -9,29 +9,23 @@ i am also an open-source enthusiast and maintainer. i learned a lot from the ope
 - 🔭 I’m currently working at **Information Technology Institute(ITI)**
 
 - 🌱 I’m currently learning **Backend and DevOps in ITI**
+- 💼 any freelance work? do reach, [email](mailto:sarahabdeldaym@gmail.com) :)
+- 💬 ask me about anything, i am happy to help;
 
+<img align="right" alt="GIF" src="https://github.com/SarahAbdeldaym/ITI/blob/master/sarah/code.gif" width="500" height="320" />
+  
 <h3 align="left">Connect with me:</h3>
-<p align="left">
 <a href="https://www.instagram.com/sarahabdeldaim/?hl=en">
   <img align="left" alt="SarahAbdeldaym's Instagram" width="22px" src="https://raw.githubusercontent.com/hussainweb/hussainweb/main/icons/instagram.png" />
 </a>
-
 <a href="https://twitter.com/abdeldaym_sarah">
   <img align="left" alt="SarahAbdeldaym Naidu | Twitter" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/twitter.svg" />
 </a>
 <a href="https://www.linkedin.com/in/sarah-abd-eldaym-594368183/">
   <img align="left" alt="SarahAbdeldaym's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
 </a>
-
 ![](https://visitor-badge.glitch.me/badge?page_id=SarahAbdeldaym.SarahAbdeldaym)
-
 <br />
-</p>
-
-  <img align="right" alt="GIF" src="https://github.com/SarahAbdeldaym/ITI/blob/master/sarah/code.gif" width="500" height="320" />
-  
-- 💼 any freelance work? do reach, [email](mailto:sarahabdeldaym@gmail.com) :)
-- 💬 ask me about anything, i am happy to help;
 
 **languages and tools:**  
 
