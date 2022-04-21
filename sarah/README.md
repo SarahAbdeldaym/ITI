@@ -6,6 +6,7 @@ hi, i'm Sarah Abdeldaym, a passionate self-taught full stack web developer and a
 
 i am also an open-source enthusiast and maintainer. i learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.
 
+<img align="right" alt="GIF" src="https://github.com/SarahAbdeldaym/ITI/blob/master/sarah/code.gif" width="500" height="320" /> 
 
 - 🔭 I’m currently working at **Information Technology Institute(ITI)**
 
@@ -59,11 +60,10 @@ if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
 ⏳  Longest streak is 10 days
 <!-- TODO-IST:END -->
 
-<p
+
 📈 my github stats
 
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=SarahAbdeldaym&show_icons=true&theme=gotham" alt="SarahAbdeldaym" />
-<img align="right" alt="GIF" src="https://github.com/SarahAbdeldaym/ITI/blob/master/sarah/code.gif" width="500" height="320" /> 
 
 
->
+
