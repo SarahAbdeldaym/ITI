@@ -6,13 +6,14 @@ hi, i'm Sarah Abdeldaym, a passionate self-taught full stack web developer and a
 
 i am also an open-source enthusiast and maintainer. i learned a lot from the open-source community and i love how collaboration and knowledge sharing happened through open-source.
 
+<img align="right" alt="GIF" src="https://github.com/SarahAbdeldaym/ITI/blob/master/sarah/code.gif" width="500" height="320" /> 
 - 🔭 I’m currently working at **Information Technology Institute(ITI)**
 
 - 🌱 I’m currently learning **Backend and DevOps in ITI**
 - 💼 any freelance work? do reach, [email](mailto:sarahabdeldaym@gmail.com) :)
 - 💬 ask me about anything, i am happy to help;
 
-<img align="right" alt="GIF" src="https://github.com/SarahAbdeldaym/ITI/blob/master/sarah/code.gif" width="500" height="320" />
+
   
 <h3 align="left">Connect with me:</h3>
 <a href="https://www.instagram.com/sarahabdeldaim/?hl=en">
