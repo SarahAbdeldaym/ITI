@@ -1,4 +1,4 @@
-<a href="http://www.vatanachhorn.tech" target="_blank" > <img src="https://github.com/SarahAbdeldaym/ITI/blob/master/sarah/istockphoto-1132178425-612x612-removebg-preview.png" width="100%" height="50%"></a>
+<a href="http://www.vatanachhorn.tech" target="_blank" > <img src="https://github.com/SarahAbdeldaym/ITI/blob/master/sarah/istockphoto-1132178425-612x612-removebg-preview.png" width="100%" ></a>
 #
 
 ### hey there <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
