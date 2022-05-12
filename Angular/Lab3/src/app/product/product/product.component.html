@@ -1,0 +1,123 @@
+
+<h1 align="center">Product List</h1>
+
+<p-dialog header="Add Product" [(visible)]="display" [modal]="true"
+    [style]="{width: '50vw'}"
+    [draggable]="false" [resizable]="false">
+
+    Product:<input type="text" [(ngModel)]="newProduct.name">
+    <br><br>
+    Code:<input type="text" [(ngModel)]="newProduct.code">
+    <br><br>
+    Available:<input type="date" [(ngModel)]="newProduct.available">
+    <br><br>
+    Price:<input type="text" [(ngModel)]="newProduct.price">
+    <br><br>
+    Rate:
+    <p-rating [(ngModel)]="newProduct.rate"></p-rating>
+
+    <br><br>
+
+    <ng-template pTemplate="footer">
+        <p-button icon="pi pi-check" (click)="addNewProduct();"
+            label="Ok"
+            styleClass="p-button-text"></p-button>
+    </ng-template>
+
+
+
+</p-dialog>
+
+<button type="button" (click)="showDialog()" icon="pi pi-info-circle"
+    label="Show">Add Product</button>
+
+
+
+<hr>
+
+
+<div *ngIf="editFlag">
+
+    Product:
+
+    <input type="text" [(ngModel)]="product.name"> Code:
+    <input type="text" [(ngModel)]="product.code"> Available:
+    <input type="date" [(ngModel)]="product.available"> Price:
+    <input type="text" [(ngModel)]="product.price"> Rate:
+    <button (click)="edit(product.id)">Edit</button>
+
+
+</div>
+
+<label for="p-password">password</label>
+<p-password></p-password>
+
+<hr>Filter by:
+
+<input type="text" (keyup)="filter()" [(ngModel)]="productName">
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th><button class="btn btn-primary" (click)="showImage()">Show Image</button></th>
+            <th>Product</th>
+            <th>Code</th>
+            <th>Available</th>
+            <th>Price</th>
+            <th>Rating</th>
+        </tr>
+    </thead>
+    <tbody *ngIf="productName===''">
+        <tr *ngFor="let product of products">
+            <td>
+                <div *ngIf="imgFlag">
+                    <img src="../../assets/{{product.img}}" width="20%" />
+                </div>
+            </td>
+            <td>{{product.name|titlecase}}</td>
+            <td>{{product.code|stringConvert}}</td>
+            <td>{{product.available|date:'MMMM dd,yyyy'}}</td>
+            <td>${{product.price}}</td>
+            <td>
+                <p-rating [(ngModel)]="product.rate" [readonly]="true"
+                    [stars]="5" [cancel]="false"></p-rating>
+            </td>
+            <td>
+                <button class="btn btn-info" (click)="showProduct(product.id)">View</button>
+                <button class="btn btn-primary"
+                    (click)="editProduct(product.id)">Edit</button>
+                <button class="btn btn-danger"
+                    (click)="deleteProduct(product.id)">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+    <tbody *ngIf="productName!==''">
+        <tr *ngFor="let product of filteredProducts">
+            <td>
+                <div *ngIf="imgFlag">
+                    <img src="../../assets/{{product.img}}" width="20%" />
+                </div>
+            </td>
+            <td>{{product.name|titlecase}}</td>
+            <td>{{product.code|stringConvert}}</td>
+            <td>{{product.available|date:'MMMM dd,yyyy'}}</td>
+            <td>${{product.price}}</td>
+
+            <td>
+                <button class="btn btn-info" (click)="showProduct(product.id)">View</button>
+                <button class="btn btn-primary"
+                    (click)="editProduct(product.id)">Edit</button>
+                <button class="btn btn-danger"
+                    (click)="deleteProduct(product.id)">Delete</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div *ngIf="showFlag">
+    <img src="../../assets/{{viewProduct.img}}" width="20%" />
+    <br>Product: {{viewProduct.name|titlecase}}
+    <br /> Code: {{viewProduct.code|stringConvert}}
+    <br /> Available: {{viewProduct.available|date:'MMMM dd,yyyy'}}
+    <br /> Price: ${{viewProduct.price}}
+    <br /> 5 Star Rating:
+
+</div>

@@ -34,6 +34,7 @@ export class StudentComponent implements OnInit {
     }
   }
 
+  
   editDivRender(studentId: number) {
     for (let i = 0; i < this.students.length; i++) {
       if (this.students[i].id == studentId) {
