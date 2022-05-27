@@ -1,0 +1,5 @@
+From : Sarah Adel
+To : Dina
+Subject : Test Subject
+Body : Some Email body
+Receiver Name : ITI

@@ -1,0 +1,5 @@
+From : Hossam Adel
+To : Yousef
+Subject : Test Subject
+Body : Some Email body
+Receiver Name : ITI
