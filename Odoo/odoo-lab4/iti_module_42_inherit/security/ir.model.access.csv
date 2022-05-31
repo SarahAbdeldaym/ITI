@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_iti_module_42_inherit_iti_module_42_inherit,iti_module_42_inherit.iti_module_42_inherit,model_iti_module_42_inherit_iti_module_42_inherit,base.group_user,1,1,1,1

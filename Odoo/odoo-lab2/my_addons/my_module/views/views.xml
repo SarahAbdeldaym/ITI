@@ -1,0 +1,67 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <record model="ir.ui.view" id="my_module.call_log_list">
+      <field name="name">Call Log list</field>
+      <field name="model">iti.call.log</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="timestamp" />
+          <field name="customer" />
+          <field name="from_number" />
+          <field name="to_number" />
+          <field name="duration" />
+          <field name="price" sum="Total"/>
+          <field name="notes" />
+          <field name="package_id" />
+        </tree>
+      </field>
+    </record>
+
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="my_module.call_log_action_window">
+      <field name="name">Call logs</field>
+      <field name="res_model">iti.call.log</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="my_module.package_action_window">
+      <field name="name">Call logs</field>
+      <field name="res_model">iti.package</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="my_module.action_server">
+      <field name="name">my_module server</field>
+      <field name="model_id" ref="model_my_module_my_module"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+
+    <menuitem name="ITI Conmmunications" id="my_module.menu_iti_root" />
+
+    <!-- menu categories -->
+
+    <menuitem name="Calls Operations" id="my_module.menu_calls" parent="my_module.menu_iti_root" />
+
+    <!-- actions -->
+
+    <menuitem name="Call Logs" id="my_module.menu_call_log" parent="my_module.menu_calls" action="my_module.call_log_action_window" />
+    <menuitem name="Packages" id="my_module.menu_packages" parent="my_module.menu_calls" action="my_module.package_action_window" />
+
+  </data>
+</odoo>

@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <record model="ir.ui.view" id="my_module.call_log_list">
+      <field name="name">Call Log list</field>
+      <field name="model">iti.call.log</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="timestamp" />
+          <field name="customer" />
+          <field name="from_number" />
+          <field name="to_number" />
+          <field name="duration" />
+          <field name="price" sum="Total" />
+          <field name="notes" />
+          <field name="package_id" />
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="my_module.call_log_form">
+      <field name="name">Call Log list</field>
+      <field name="model">iti.call.log</field>
+      <field name="arch" type="xml">
+        <form>
+          <header>
+            <button name="compute_usd" string="Compute USD" type="object" />
+            <button name="create_order" string="Create Order" type="object" />
+          </header>
+          <sheet>
+            <group string="Basic Data">
+              <group>
+                <field name="timestamp" />
+                <field name="customer" />
+              </group>
+              <group>
+                <field name="from_number" />
+                <field name="to_number" />
+                <field name="duration" />
+                <field name="price" />
+                <field name="usd_price" />
+                <field name="package_id" />
+              </group>
+              <notebook>
+                <page string="Notes" name="notes">
+                  <field name="notes" />
+                </page>
+              </notebook>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="my_module.call_log_search">
+      <field name="name">Call Log list</field>
+      <field name="model">iti.call.log</field>
+      <field name="arch" type="xml">
+        <search>
+          <field name="timestamp" />
+          <field name="customer" />
+          <field name="from_number" />
+          <field name="to_number" />
+          <field name="price" />
+          <filter string="Price Above 50" name="price_above" domain="[('price', '>=', 50.0)]" />
+          <group expand="1" string="Group By">
+            <filter string="Customer" name="customer" context="{'group_by':'customer'}" />
+          </group>
+        </search>
+      </field>
+    </record>
+
+
+    <!-- actions opening views on models -->
+
+    <record model="ir.actions.act_window" id="my_module.call_log_action_window">
+      <field name="name">Call logs</field>
+      <field name="res_model">iti.call.log</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <record model="ir.actions.act_window" id="my_module.package_action_window">
+      <field name="name">Call logs</field>
+      <field name="res_model">iti.package</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+    <!-- server action to the one above -->
+
+    <record model="ir.actions.server" id="compute_usd_action">
+      <field name="name">Compute to USD</field>
+      <field name="model_id" ref="model_iti_call_log" />
+      <field name="state">code</field>
+      <field name="code">
+        for rec in records:
+          rec.compute_usd()
+      </field>
+    </record>
+
+
+    <!-- Top menu item -->
+
+    <menuitem name="ITI Conmmunications" id="my_module.menu_iti_root" />
+
+    <!-- menu categories -->
+
+    <menuitem name="Calls Operations" id="my_module.menu_calls" parent="my_module.menu_iti_root" />
+
+    <!-- actions -->
+
+    <menuitem name="Call Logs" id="my_module.menu_call_log" parent="my_module.menu_calls" action="my_module.call_log_action_window" />
+    <menuitem name="Packages" id="my_module.menu_packages" parent="my_module.menu_calls" action="my_module.package_action_window" />
+
+  </data>
+</odoo>
