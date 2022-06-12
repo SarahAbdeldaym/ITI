@@ -1,4 +1,4 @@
-# lab1
+# lab3
 
 ![screen-gif](lab3.gif) 
 
