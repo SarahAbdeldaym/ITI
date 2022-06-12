@@ -1,6 +1,6 @@
 # lab1
 
-![screen-gif](Lab1.gif)
+![screen-gif](lab1.gif)
 
 ## Project setup
 ```
