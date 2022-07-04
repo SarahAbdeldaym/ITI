@@ -1,1 +1,1 @@
-![screen-gif](./Documentation/Demo.gif)
+![screen-gif](./documentation/Demo.gif)
